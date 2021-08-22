@@ -16,6 +16,15 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?https://github.com/itmearavind/Media-Search-bot)
 ### Hard Way
 
+### Deploy 
+
+Deploy on Heroku
+<p align="left">
+  <a href="https://heroku.com/deploy?template=https://github.com/itmearavind/Media-Search-bot">
+     <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
+  </a>
+</p>
+
 ```bash
 # Create virtual environment
 python3 -m venv env
