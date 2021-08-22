@@ -13,7 +13,7 @@
 ## Installation
 
 ### Easy Way
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?https://github.com/itmearavind/Media-Search-bot?organization=itmearavind&organization=itmearavind)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?https://github.com/itmearavind/Media-Search-bot)
 ### Hard Way
 
 ```bash
