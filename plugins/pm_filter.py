@@ -274,7 +274,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 [
                     InlineKeyboardButton('💫ＪƝ⟆ ᗷ〇Ƭ⟆💫', url='https://t.me/jns_bots'),
                     InlineKeyboardButton('Join Now 😇', url='https://t.me/Tamil_LinkzZ')
-                
+                ]
                 ]
             await query.message.edit(text="<b>Developer : <a href='https://t.me/jns_bots'>ＪƝ⟆ ᗷ〇Ƭ⟆ 💫</a>\n\nLanguage : <code>Python3 🥀</code>\n\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio 🧾</a>\n\nMovieS : <a href='https://t.me/Tamil_LinkzZ'>TAMIL_LINKZZ🌃</a>\n\nDiscussion : <a href='https://t.me/Jns_fc_bots'>JNS BOTS🍻</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
