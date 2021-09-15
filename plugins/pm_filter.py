@@ -81,10 +81,10 @@ async def filter(client, message):
             if API_KEY:
                 poster=await get_poster(search)
             if poster:
-                await message.reply_photo(photo=poster, caption=f"<b>Here is What I Found In My Database For Your Query</b> 👉 `{search}` ‌‌‌‌‎ ­  ­  ­­\n **For more accuracy** \n **MOVIE NAME YEAR LANGUAGE**  ­  ­ ", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo=poster, caption=f"<b>Found 12 Results For Your </b> \n Query: 👉 <b>{search}</b>  \n\n**Join : 🔗 @Tamil_LinkzZ 🔗**‎  ", reply_markup=InlineKeyboardMarkup(buttons))
 
             else:
-                await message.reply_text(f"<b>Here is What I Found In My Database For Your Query </b>  👉 `{search}` ‎ ­  ­ ­\n **For more accuracy** \n **MOVIE NAME YEAR LANGUAGE** ­  ­  ­  ", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_text(f"<b>Found 12 Results For Your </b> \n Query: 👉 <b>{search}</b>  \n\n**Join : 🔗 @Tamil_LinkzZ 🔗** ", reply_markup=InlineKeyboardMarkup(buttons))
             return
 
         data = BUTTONS[keyword]
@@ -100,9 +100,9 @@ async def filter(client, message):
         if API_KEY:
             poster=await get_poster(search)
         if poster:
-            await message.reply_photo(photo=poster, caption=f"<b>Here is What I Found In My Database For Your Query</b>  👉 `{search}` ‌‌‌‌‎ ­\n **For more accuracy**\n **MOVIE NAME YEAR LANGUAGE**  ­  ­  ­  ­  ", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_photo(photo=poster, caption=f" ­ <b>Found 12 Results For Your </b> \n Query: 👉 <b>{search}</b>  \n\n**Join : 🔗 @Tamil_LinkzZ 🔗** ­  ", reply_markup=InlineKeyboardMarkup(buttons))
         else:
-            await message.reply_text(f"<b>Here is What I Found In My Database For Your Query</b>  👉 `{search}` ‌‌‌‌‎ ­­\n **For more accuracy**\n **MOVIE NAME YEAR LANGUAGE**  ­  ­  ­  ­ ", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_text(f"­<b>Found 12 Results For Your </b> \n Query: 👉 <b>{search}</b>  \n\n**Join : 🔗 @Tamil_LinkzZ 🔗** ", reply_markup=InlineKeyboardMarkup(buttons))
 
 @Client.on_message(filters.text & filters.group & filters.incoming & filters.chat(AUTH_GROUPS) if AUTH_GROUPS else filters.text & filters.group & filters.incoming)
 async def group(client, message):
@@ -145,9 +145,9 @@ async def group(client, message):
             if API_KEY:
                 poster=await get_poster(search)
             if poster:
-                await message.reply_photo(photo=poster, caption=f"<b>Here is What I Found In My Database For Your Query</b>  👉 `{search}` ‌‌‌‌‎ ­­\n **For more accuracy**\n **MOVIE NAME YEAR LANGUAGE** ‌‌‌‌‎ ­  ­  ­  ­  ­  ", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo=poster, caption=f" <b>Found 12 Results For Your </b> \n Query: 👉 <b>{search}</b>  \n\n**Join : 🔗 @Tamil_LinkzZ 🔗**­  ", reply_markup=InlineKeyboardMarkup(buttons))
             else:
-                await message.reply_text(f"<b>Here is What I Found In My Database For Your Query</b>  👉 `{search}` ‌‌‌‌‎ ­­\n **For more accuracy**\n **MOVIE NAME YEAR LANGUAGE**  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_text(f"<b>Found 12 Results For Your </b> \n Query: 👉 <b>{search}</b>  \n\n**Join : 🔗 @Tamil_LinkzZ 🔗**", reply_markup=InlineKeyboardMarkup(buttons))
             return
 
         data = BUTTONS[keyword]
@@ -163,9 +163,9 @@ async def group(client, message):
         if API_KEY:
             poster=await get_poster(search)
         if poster:
-            await message.reply_photo(photo=poster, caption=f"<b>Here is What I Found In My Database For Your Query</b>  👉 `{search}` ‌‌‌‌‎ ­­\n **For more accuracy**\n **MOVIE NAME YEAR LANGUAGE**     ­  ", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_photo(photo=poster, caption=f"­ <b>Found 12 Results For Your </b> \n Query: 👉 <b>{search}</b>  \n\n**Join : 🔗 @Tamil_LinkzZ 🔗** ", reply_markup=InlineKeyboardMarkup(buttons))
         else:
-            await message.reply_text(f"<b>Here is What I Found In My Database For Your  Query</b>  👉 `{search}` ‌‌‌‌‎ ­­\n **For more accuracy**\n **MOVIE NAME YEAR LANGUAGE**   ­  ", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_text(f" ­<b>Found 12 Results For Your </b> \n Query: 👉 <b>{search}</b>  \n\n**Join : 🔗 @Tamil_LinkzZ 🔗** ", reply_markup=InlineKeyboardMarkup(buttons))
 
     
 def get_size(size):
@@ -273,10 +273,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [
                 [
                     InlineKeyboardButton('💫ＪƝ⟆ ᗷ〇Ƭ⟆💫', url='https://t.me/jns_bots'),
-                    InlineKeyboardButton('🤠MoViEs🤠', url='https://t.me/FCfilmcornerfc')
+                    InlineKeyboardButton('Join Now 😇', url='https://t.me/Tamil_LinkzZ')
+                
                 ]
-                ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/jns_bots'>ＪƝ⟆ ᗷ〇Ƭ⟆ 💫</a>\n\nLanguage : <code>Python3 🥀</code>\n\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio 🧾</a>\n\nMovieS : <a href='https://t.me/FCfilmcornerfc'>FILM CORNER™🌃</a>\n\nDiscussion : <a href='https://t.me/Jns_fc_bots'>JNS BOTS🍻</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/jns_bots'>ＪƝ⟆ ᗷ〇Ƭ⟆ 💫</a>\n\nLanguage : <code>Python3 🥀</code>\n\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio 🧾</a>\n\nMovieS : <a href='https://t.me/Tamil_LinkzZ'>TAMIL_LINKZZ🌃</a>\n\nDiscussion : <a href='https://t.me/Jns_fc_bots'>JNS BOTS🍻</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
