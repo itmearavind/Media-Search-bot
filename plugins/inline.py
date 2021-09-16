@@ -84,10 +84,7 @@ def get_reply_markup(query):
     buttons = [
         [
             InlineKeyboardButton('🔍Search Movies', switch_inline_query_current_chat=query),
-            InlineKeyboardButton('Join Our Channel 😇', url='https://t.me/Tamil_LinkzZ')
-        ],
-        [
-            InlineKeyboardButton('💤Dev💤', url='https://t.me/jintons')
+            InlineKeyboardButton('Join Now 😇', url='https://t.me/Tamil_LinkzZ')
         ],
         [
             InlineKeyboardButton("Join Our Group 💬 ", url='https://t.me/discussion_hd_movies' )
