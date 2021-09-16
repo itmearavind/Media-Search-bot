@@ -66,7 +66,7 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🔍Search Movies', switch_inline_query_current_chat=query),
+                        InlineKeyboardButton('🔍Search Movies', switch_inline_query_current_chat=''),
                         InlineKeyboardButton('Join Our Channel 😇', url='https://t.me/Tamil_LinkzZ')
                     ],
                     [
@@ -105,7 +105,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton('🔍Search Movies', switch_inline_query_current_chat=query),
+                        InlineKeyboardButton('🔍Search Movies', switch_inline_query_current_chat=''),
                         InlineKeyboardButton('Join Our Channel 😇', url='https://t.me/Tamil_LinkzZ')
                     ],
                     [
