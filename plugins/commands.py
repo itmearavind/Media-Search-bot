@@ -66,8 +66,14 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🔍Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots🐾', url='https://t.me/jns_bots')
+                        InlineKeyboardButton('🔍Search Movies', switch_inline_query_current_chat=query),
+                        InlineKeyboardButton('Join Our Channel 😇', url='https://t.me/Tamil_LinkzZ')
+                    ],
+                    [
+                        InlineKeyboardButton('💤Dev💤', url='https://t.me/jns_bots')
+                    ],
+                    [
+                        InlineKeyboardButton("Join Our Group 💬 ", url='https://t.me/discussion_hd_movies' )
                     ]
                     ]
                 await bot.send_cached_media(
@@ -99,17 +105,17 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔍Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("More Bots🐾", url="https://t.me/jns_bots")
+                        InlineKeyboardButton('🔍Search Movies', switch_inline_query_current_chat=query),
+                        InlineKeyboardButton('Join Our Channel 😇', url='https://t.me/Tamil_LinkzZ')
                     ],
                     [
                         InlineKeyboardButton("🙈About🙈", callback_data="about")
                     ],
                     [
-                        InlineKeyboardButton('💤Dev💤', url='https://t.me/jintons')
+                        InlineKeyboardButton('💤Dev💤', url='https://t.me/jns_bots')
                     ],
                     [
-                        InlineKeyboardButton("🥳Invite friends 🔫", url='https://telegram.me/share/url?url=https://t.me/JNS_MOVIE_BOT' )
+                        InlineKeyboardButton("Join Our Group 💬 ", url='https://t.me/discussion_hd_movies' )
                     ]
                 ]
             )
