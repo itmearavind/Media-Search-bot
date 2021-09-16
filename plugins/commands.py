@@ -67,10 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('🔍Search Movies', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('Join Our Channel 😇', url='https://t.me/Tamil_LinkzZ')
-                    ],
-                    [
-                        InlineKeyboardButton('💤Dev💤', url='https://t.me/jns_bots')
+                        InlineKeyboardButton('Join Now😇', url='https://t.me/Tamil_LinkzZ')
                     ],
                     [
                         InlineKeyboardButton("Join Our Group 💬 ", url='https://t.me/discussion_hd_movies' )
@@ -106,13 +103,10 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton('🔍Search Movies', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('Join Our Channel 😇', url='https://t.me/Tamil_LinkzZ')
+                        InlineKeyboardButton('Join Now 😇', url='https://t.me/Tamil_LinkzZ')
                     ],
                     [
                         InlineKeyboardButton("🙈About🙈", callback_data="about")
-                    ],
-                    [
-                        InlineKeyboardButton('💤Dev💤', url='https://t.me/jns_bots')
                     ],
                     [
                         InlineKeyboardButton("Join Our Group 💬 ", url='https://t.me/discussion_hd_movies' )
